@@ -20,6 +20,9 @@ nav{
     flex-direction: row;
     justify-content: space-between;
 }
+.hamIcon:hover{
+    background-color: #ddddcde3;
+}
 a{
     text-decoration: none;
     color: #000;
