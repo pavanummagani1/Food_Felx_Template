@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Karma", sans-serif;
+}
+#header{
+    background-color: #fff;
+    padding: 20px;
+    font-size: 1.5rem;
+    box-shadow: 0px 2px 2px #203040;
+    position: sticky;
+    top: 0px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* Main Container */
+#menuContainer{
+    margin: 100px 0px;
+}
+#row{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.menuItem{
+    width: 20vw;
+    
+}
+.itemImg{
+    display: inline-block;
+    width: 100%;
+}
+.Item{
+    font-weight: 100;
+    font-size: 1.5rem;
+    text-align: justify;
+    text-align-last: center;
+
+}
+p{
+    font-size: 1rem;
+    text-align: center;
+}
